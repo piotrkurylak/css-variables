@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/styles/css/index.css">
+    <title>Css variables</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="heading">Update CSS Variables with
+            <span class="heading__phrase">JS</span>
+        </h1>
+        <form class="controls">
+            <label for="spacing">Spacing:</label>
+            <input type="range" name="spacing" min="10" max="200" data-sizing="px">
+
+            <label for="base">Base Color</label>
+            <input type="color" name="base" value="#000000">
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
